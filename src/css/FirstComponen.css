@@ -1,0 +1,74 @@
+@media(min-width:1200px){
+    .FirstComponen{
+         min-height:40vh;
+         width:100%;
+         
+         display:flex;
+         justify-content:space-between;
+         align-items:center;
+         gap:1vw;
+         
+    }
+    .FirstComponen_firstDiv{
+        height:100%;
+        min-width:62%;
+
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        border-radius:10px;
+        
+      
+    }
+    .FirstComponen_firstDiv_left{
+        height:100%;
+        min-width:60%;
+        
+      
+
+ 
+        display:flex;
+        justify-content:center;
+        gap:4vh;
+        align-items:start;
+        flex-direction:column;
+    }
+    .FirstComponen_firstDiv_right{
+        height:100%;
+        min-width:40%;
+     
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+    }
+
+    .FirstComponen_firstDiv_right_main{
+        height:100%;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+       
+        background-image:url('../images/blob (3).svg');
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    
+    .FirstComponen_secondDiv{
+        height:100%;
+        min-width:35%;
+     
+        background-image:url('../images/abstract-background-futuristic-dynamic-motion-generative-ai_760214-1583.avif');
+        background-size:cover;
+        background-position:center;
+        background-repeat:no-repeat;
+        border-radius:10px;
+        display:flex;
+        justify-content:end;
+        align-items:start;
+        flex-direction:column;
+
+    }
+}
